@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-1 .sub1-section1 {
+  background-image: url(images/kitchen.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 60vh;
+  position: relative;
+}
+
+.section-1 .sub1-section1 .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-1 .sub1-section1 .navbar li {
+  list-style: none;
+  margin: 10px 30px;
+  font-family: 'Audiowide', cursive;
+}
+
+.section-1 .sub1-section1 .navbar li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.section-1 .sub2-section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-1 .sub2-section1 h1 {
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 4vw;
+}
+
+.section-1 .sub2-section1 p {
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-2 .sub1-section2 {
+  background-image: url(images/kitchen2.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 120%;
+  float: left;
+  height: 40vh;
+  position: relative;
+}
+
+.section-2 .sub2-section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 160%;
+}
+
+.section-2 .sub2-section2 h1 {
+  padding: 0px 0px 10px 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 2vw;
+}
+
+.section-2 .sub2-section2 p {
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 0px 0px 0px 20px;
+  font-size: 1.5vw;
+}
+
+.section-2 .sub3-section2 {
+  background-image: url(images/kitchen3.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 120%;
+  float: left;
+  height: 40vh;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
