@@ -20,6 +20,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  background: #f9f9f9;
 }
 
 .section-1 .sub1-section1 {
@@ -81,13 +82,16 @@
 .section-1 .sub2-section1 h1 {
   text-align: center;
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 4vw;
+  font-size: 3.3vw;
+  color: #202020;
+  letter-spacing: 5px;
 }
 
 .section-1 .sub2-section1 p {
   font-family: 'Lexend Deca', sans-serif;
   text-align: center;
   font-size: 1.3vw;
+  padding-top: 20px;
 }
 
 .section-1 .sub2-section1 a {
@@ -96,7 +100,7 @@
   padding-top: 20px;
   font-family: 'Lexend Deca', sans-serif;
   color: #0d0d0e;
-  font-size: xxx-large;
+  font-size: 2vw;
 }
 
 .section-1 .sub2-section1 a:hover {
@@ -119,6 +123,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  background: #f9f9f9;
 }
 
 .section-2 .sub1-section2 {
@@ -153,6 +158,8 @@
   padding: 0px 0px 10px 20px;
   font-family: 'Lexend Deca', sans-serif;
   font-size: 2vw;
+  color: #202020;
+  letter-spacing: 5px;
 }
 
 .section-2 .sub2-section2 p {
