@@ -19,8 +19,11 @@ The lessons learned are below:
 ## UX/UI Design
 ![Final Product]()
 
-## Final Product
-![Final Product]()
+## Final Product (1920x1080 desktop phone)
+![Final Product](https://github.com/JoshuasProgramming/Interior-Design-Landing-Page/blob/main/images/1920x1080.png)
+
+## Final Product (390x844 mobile phone)
+![Final Product](https://github.com/JoshuasProgramming/Interior-Design-Landing-Page/blob/main/images/390x844.png)
 
 ### Website Link
 https://joshuasprogramming.github.io/Interior-Design-Landing-Page/
