@@ -46,6 +46,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: revert;
 }
 
 .section-1 .sub1-section1 .navbar li {
@@ -57,6 +58,7 @@
 .section-1 .sub1-section1 .navbar li a {
   text-decoration: none;
   color: aliceblue;
+  font-size: 1.9vw;
 }
 
 .section-1 .sub2-section1 {
@@ -85,7 +87,7 @@
 .section-1 .sub2-section1 p {
   font-family: 'Lexend Deca', sans-serif;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
 
 .section-1 .sub2-section1 a {
@@ -94,6 +96,7 @@
   padding-top: 20px;
   font-family: 'Lexend Deca', sans-serif;
   color: #0d0d0e;
+  font-size: xxx-large;
 }
 
 .section-1 .sub2-section1 a:hover {
@@ -143,6 +146,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 160%;
+  padding: 0px 60px 0px 60px;
 }
 
 .section-2 .sub2-section2 h1 {
@@ -154,7 +158,7 @@
 .section-2 .sub2-section2 p {
   font-family: 'Lexend Deca', sans-serif;
   padding: 0px 0px 0px 20px;
-  font-size: 1.5vw;
+  font-size: 1.1vw;
 }
 
 .section-2 .sub3-section2 {
@@ -165,5 +169,6 @@
   float: left;
   height: 40vh;
   position: relative;
+  opacity: 75%;
 }
 /*# sourceMappingURL=style.css.map */
