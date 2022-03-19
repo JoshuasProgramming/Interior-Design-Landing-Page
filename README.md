@@ -17,7 +17,7 @@ The lessons learned are below:
 * Updating my knowledge on responsive design
 
 ## UX/UI Design
-![Final Product]()
+![Final Product](https://github.com/JoshuasProgramming/Interior-Design-Landing-Page/blob/main/images/ui%20xdesign.JPG)
 
 ## Final Product (1920x1080 desktop phone)
 ![Final Product](https://github.com/JoshuasProgramming/Interior-Design-Landing-Page/blob/main/images/1920x1080.png)
