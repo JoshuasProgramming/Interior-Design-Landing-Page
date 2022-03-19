@@ -101,12 +101,14 @@
   font-family: 'Lexend Deca', sans-serif;
   color: #0d0d0e;
   font-size: 2vw;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
 }
 
 .section-1 .sub2-section1 a:hover {
   letter-spacing: 20px;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
 }
 
 .section-2 {

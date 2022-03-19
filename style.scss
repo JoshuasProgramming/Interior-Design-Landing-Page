@@ -72,10 +72,12 @@
             font-family: 'Lexend Deca', sans-serif;
             color: rgb(13, 13, 14);
             font-size: 2vw;
+            transition: ease-in-out 300ms;
 
             &:hover{
                 letter-spacing: 20px;
-                transition: 1s;
+                transition: ease-in-out 300ms;
+            
             }
         }
     }
