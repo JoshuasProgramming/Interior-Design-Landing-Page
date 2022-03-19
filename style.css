@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -53,13 +55,23 @@
 .section-1 .sub1-section1 .navbar li {
   list-style: none;
   margin: 10px 30px;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .section-1 .sub1-section1 .navbar li a {
   text-decoration: none;
   color: aliceblue;
-  font-size: 1.9vw;
+  font-size: 1.1vw;
+  font-style: oblique;
+  opacity: 75%;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+}
+
+.section-1 .sub1-section1 .navbar li a:hover {
+  opacity: 90%;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
 }
 
 .section-1 .sub2-section1 {
@@ -88,10 +100,12 @@
 }
 
 .section-1 .sub2-section1 p {
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   padding-top: 20px;
+  opacity: 65%;
+  font-style: oblique;
 }
 
 .section-1 .sub2-section1 a {
@@ -165,9 +179,11 @@
 }
 
 .section-2 .sub2-section2 p {
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding: 0px 0px 0px 20px;
   font-size: 1.1vw;
+  font-style: oblique;
+  opacity: 65%;
 }
 
 .section-2 .sub3-section2 {
