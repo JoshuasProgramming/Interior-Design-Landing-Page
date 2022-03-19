@@ -17,7 +17,7 @@
         background-image: url(images/kitchen.jpg);
         background-size:cover;
         min-height: 90%;
-        width:100%;
+        width:200%;
         float: left;
         height: 60vh;
         position: relative;
@@ -45,7 +45,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
+        padding:0px 60px 0px 60px;
         h1{
 
             text-align: center;
@@ -57,6 +57,19 @@
             font-family: 'Lexend Deca', sans-serif;
             text-align: center;
             font-size: 1.5vw;
+        }
+
+        a{
+            text-decoration: none;
+            letter-spacing: 10px;
+            padding-top: 20px;
+            font-family: 'Lexend Deca', sans-serif;
+            color: rgb(13, 13, 14);
+
+            &:hover{
+                letter-spacing: 20px;
+                transition: 1s;
+            }
         }
     }
 }
