@@ -8,13 +8,14 @@ I really enjoyed the process of breaking down the UX/UI design into small chunks
 The lessons learned are below:
 
 * Re-creating a website as close as possible to the design that was given to me. 
-* (updating my knowledge on) Responsive Design
-* Adding favicon to a page 
-* Creating a website ASAP
+* (updating my knowledge on) Responsive Design.
+* Adding favicon to a page. 
+* Creating a website ASAP.
 
 ## Challenges 
 
-* Updating my knowledge on responsive design
+* Updating my knowledge on responsive design.
+* Making each section of the page have the height and width of the ui/ux mockup.
 
 ## UX/UI Design
 ![Final Product](https://github.com/JoshuasProgramming/Interior-Design-Landing-Page/blob/main/images/ui%20xdesign.JPG)
