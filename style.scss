@@ -9,6 +9,7 @@
     padding:0;
 }
 
+
 .section-1{
     display: flex;
     justify-content: center;
@@ -95,6 +96,7 @@
     }
 }
 
+
 .section-2{
     display: flex;
     align-items: center;
@@ -146,6 +148,152 @@
         height: 40vh;
         position: relative;
         opacity:75%;
+    }
+
+}
+
+/**Mobile Phones */
+@media screen and (max-width: 480px){
+    .section-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .sub1-section1{
+            background-image: url(images/kitchen.jpg);
+            background-size:cover;
+            min-height: 90%;
+            max-width:100%;
+            float: left;
+            height: 35vh;
+            position: relative;
+            opacity: 65%;
+            margin: unset;
+            height: -webkit-fill-available;
+        
+            .navbar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: revert;
+                background-color: black;
+                opacity: 60%;
+                margin:initial;
+
+                li{
+                    list-style: none;
+                    margin:10px 30px;
+                    font-family: 'Merriweather Sans', sans-serif;
+                    
+                    a{
+                        text-decoration: none;
+                        color: aliceblue;
+                        font-size: 7.4vw;
+                        font-style: oblique;
+                        opacity: 100%;
+                        letter-spacing: 10px;
+                    }
+                }
+            }
+        }
+        .sub2-section1{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding:0px 60px 0px 60px;
+            height: 50vh;
+            h1{
+    
+                text-align: center;
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: 6.3vw;
+                color:#202020;
+                letter-spacing: 5px;
+            }
+    
+            p{
+                font-family: 'Lato', sans-serif;
+                text-align: center;
+                font-size: 3.1vw;
+                padding-top: 20px;
+                opacity: 65%;
+                font-style: oblique;
+            }
+    
+            a{
+                text-decoration: none;
+                letter-spacing: 10px;
+                padding-top: 20px;
+                font-family: 'Lexend Deca', sans-serif;
+                color: rgb(13, 13, 14);
+                font-size: 4vw;
+                transition: ease-in-out 300ms;
+    
+                &:hover{
+                    letter-spacing: 20px;
+                    transition: ease-in-out 300ms;
+                
+                }
+            }
+        }
+    }
+
+    .section-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background: #f9f9f9;
+    
+        .sub1-section2{
+            background-image: url(images/kitchen2.jpg);
+            background-size:cover;
+            min-height: 90%;
+            max-width:190%;
+            float: left;
+            height: 40vh;
+            position: relative;
+        }
+    
+        .sub2-section2{
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            width:160%;
+            padding: 0px 60px 0px 60px;
+    
+    
+            h1{
+                padding: 0px 0px 10px 20px;
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: 4vw;
+                color: #202020;
+                letter-spacing: 3px;
+            }
+            p{
+                font-family: 'Lato', sans-serif;
+                padding: 0px 0px 0px 20px;
+                font-size:2.6vw;
+                font-style: oblique;
+                opacity: 65%;
+            }
+        }
+    
+        .sub3-section2{
+            background-image: url(images/kitchen3.jpg);
+            background-size:cover;
+            min-height: 90%;
+            width:0%;
+            float: left;
+            height: 40vh;
+            position: relative;
+            opacity:75%;
+        }
+    
     }
 
 }
