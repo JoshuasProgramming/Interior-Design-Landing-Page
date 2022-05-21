@@ -4,7 +4,7 @@ I created a fully responsive ecommerce website from viewing a UX/UI design onlin
 
 ## Lessons Learned
 
-I really enjoyed the process of breaking down the UX/UI design into small chunks, via divide and conquer.
+I really enjoyed the process of breaking down the UX/UI design into small chunks, via divide and conquer
 The lessons learned are below:
 
 * Re-creating a website as close as possible to the design that was given to me. 
